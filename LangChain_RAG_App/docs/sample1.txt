@@ -1,0 +1,2 @@
+LangChain helps developers build applications powered by language models.
+OpenAI provides APIs for GPT and embedding models.

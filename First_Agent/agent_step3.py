@@ -1,6 +1,15 @@
+from dotenv import load_dotenv
 from langchain.agents import create_react_agent, AgentExecutor
-from langchain_openai import ChatOpenAI
 from langchain.tools import Tool
+
+import os
+from langchain_openai import ChatOpenAI
+
+load_dotenv()
+api_key = os.getenv("OPENAI_API_KEY")
+
+llm = ChatOpenAI(model="gpt-4o-mini",api_key=api_key)
+
 
 # Step 1. Define a simple tool
 def multiply(a: int, b: int) -> int:
