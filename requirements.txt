@@ -1,0 +1,13 @@
+langchain==0.2.14
+langchain-core==0.2.21
+langchain-community==0.2.11
+langchain-openai==0.1.17
+langchain-pinecone==0.0.3
+langchain-text-splitters==0.2.2
+pinecone-client==3.2.2
+chromadb==0.5.3
+python-dotenv==1.0.1
+tiktoken==0.7.0
+pydantic==2.9.2
+requests==2.32.3
+tenacity==8.3.0
